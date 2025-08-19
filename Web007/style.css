@@ -1,0 +1,28 @@
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    letter-spacing: 10px;
+    font-size: 5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(3px);
+    width: 70%;
+    background-color: hsla(209, 100%, 88%, 0.37);
+}
+
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("v1c8geq7ma2c1.png");
+    background-size: cover;
+    background-attachment: fixed;
+    margin:0;
+
+
+}

@@ -1,0 +1,27 @@
+#countLabel{
+    
+    display: block;
+    font-size: 10em;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+
+}
+
+#groupbutton{
+    
+    text-align: center; 
+}
+
+.buttons{
+    padding: 10px 20px;
+    font-size: 30px;
+    color: #f72424;
+    background-color: hsl(180, 87%, 70%);
+    border-radius: 10px;
+    cursor:grab;
+    transition: background-color 0.25s;
+    
+}
+.buttons:hover{
+    background-color:hsl(180, 38%, 54%);
+}

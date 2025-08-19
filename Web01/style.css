@@ -1,0 +1,15 @@
+body{
+    font-size: medium;
+    font-family: Verdana;
+    font-style: italic;
+
+}
+
+
+#span{
+    font-size: large;
+}
+
+.table{
+    border: 1px;
+}

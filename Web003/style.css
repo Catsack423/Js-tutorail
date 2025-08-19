@@ -1,0 +1,64 @@
+input {
+    padding: 10px 15px;
+    border: 1.5px solid #bdbdbd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    outline: none;
+    background: #fafafa;
+    color: #333;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+input:focus {
+    border-color: #1976d2;
+    box-shadow: 0 0 0 2px #1976d233;
+}
+
+h2 {
+    font-size: 40px;
+    color: #1976d2;
+    margin-bottom: 16px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-align: center;
+    font-family: 'Segoe UI', 'Prompt', 'Kanit', 'Arial', sans-serif;
+    text-shadow: 0 2px 8px #1976d233;
+}
+
+#shownumberlabel {
+    display: block;
+    font-size: 30px;
+    color: #555;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 500;
+    
+}
+
+#generate {
+    padding: 10px 24px;
+    background: linear-gradient(90deg, #1976d2 0%, #42a5f5 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+    transition: background 0.2s, box-shadow 0.2s;
+}
+
+#generate:hover, #generate:focus {
+    background: linear-gradient(90deg, #1565c0 0%, #1976d2 100%);
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.15);
+}
+
+
+
+#groupbutton{
+    text-align: center;
+    white-space: 30px;
+}
